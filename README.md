@@ -1,2 +1,2 @@
 # lunaaria108.gthub.io
-My CV
+Web Programming project 2
