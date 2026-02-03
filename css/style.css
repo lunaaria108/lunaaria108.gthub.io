@@ -1,0 +1,207 @@
+body {
+  margin: 0px;
+}
+
+.playfair-display-lobster {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/****************   Nav Section **********************/
+nav {
+	background-color: rgb(170, 138, 99);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+nav p {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  color: rgb(76, 54, 27);
+}
+
+nav a {
+  color:rgb(47, 77, 45);
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+/***********************  Footer Section   **************************/
+footer {
+	background-color: rgb(170, 138, 99);
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+footer p {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  color: rgb(76, 54, 27);
+}
+
+footer a{
+  color:rgb(47, 77, 45);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+/*********** Splash Page ************************/
+header {
+  display: flex;
+  border: 0px;
+  background-color: bisque;
+  flex-direction: column;
+  padding: 10px;
+}
+
+header h1 {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  color: rgb(76, 54, 27);
+}
+
+header img {
+  width: 200px;
+  height: auto;
+  border: 5px solid rgb(76, 54, 27);
+}
+
+.address {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  color:rgb(76, 54, 27);
+}
+
+.tagline {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  color:rgb(76, 54, 27);
+}
+
+/************* Sections ********************/
+hr {
+  margin: 0px;
+  color:rgb(76, 54, 27);
+
+}
+
+section h3 {
+  padding: 0 0 0 10px;
+  font-family: "Playfair Display";
+  font-weight: 400;
+  color:rgb(76, 54, 27);
+}
+
+section dl {
+  padding: 0 0 0 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  font-family: "Playfair Display";
+  font-weight: 400;
+  color:rgb(76, 54, 27);
+}
+
+section dl dd{
+  justify-self: end;
+  padding: 0 20px 0 0;
+}
+
+section ul {
+  list-style-type: none;
+  font-family: "Playfair Display";
+  font-weight: 400;
+  color:rgb(76, 54, 27);
+}
+
+ul li::before {
+  content: "-";
+}
+
+section a {
+  color:rgb(47, 77, 45);
+  text-decoration: none;
+}
+
+section a:hover {
+  text-decoration: underline;
+}
+
+/**************   Projects   *****************/
+.three-col {
+	display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  padding: 10px;
+  gap: 50px;
+  padding: 0 0 20px 0;
+}
+
+.card img {
+  width: 400px;
+  height: auto;
+}
+
+.card {
+  text-align: center;
+  width: 400px;
+  height: auto;
+  background-color: bisque;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px rgb(76, 54, 27);
+
+  font-family: "Playfair Display";
+  font-weight: 400;
+  color:rgb(76, 54, 27);
+}
+
+.card ul{
+  text-align: left;
+}
+
+/**************   Responsiveness   *****************/
+@media (max-width: 680px) {
+    nav {
+      display: block;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .three-col {
+      grid-template-columns: 1fr;
+    }
+}
+
+/**************   Contact Page   *****************/
+.one-col {
+  display: grid;
+  grid-template-columns: 1fr;
+  Justify-items: start;
+  padding: 10px;
+
+  font-family: "Playfair Display";
+  font-weight: 400;
+  color:rgb(76, 54, 27);
+}
+
+input {
+  border-color: rgb(76, 54, 27);
+}
+
+textarea {
+   border-color: rgb(76, 54, 27);
+}
+
+button {
+  background-color: bisque;
+  border-color:rgb(76, 54, 27);
+  font-family: "Playfair Display";
+}
